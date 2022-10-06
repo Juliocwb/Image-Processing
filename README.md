@@ -6,7 +6,7 @@ processing:
 - Histrogram matching
 - Structural similarity
 - Resize image
-	Ultils:
+Ultils:
 - Read image
 - Save image
 - Plot image
