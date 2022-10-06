@@ -1,7 +1,7 @@
 # Image Processing
 
 Description. 
-The package Image-Processing is used to:
+The package image-Processing is used to:
 		processing:
 					- Histrogram matching
 					- Structural similarity
@@ -15,10 +15,10 @@ The package Image-Processing is used to:
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image-processing
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing
 
 ```bash
-pip install image-Processing
+pip install image_processing
 ```
 
 ## Usage

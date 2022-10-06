@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="Image_processing",
-    version="0.0.1",
+    version="0.0.3",
     author="Julio",    
     description="Image Processing Package using Skimage", 
     long_description=page_description,
@@ -16,5 +16,5 @@ setup(
     url="https://github.com/Juliocwb/Image-Processing",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3',
+    python_requires='>=3.8',
 )

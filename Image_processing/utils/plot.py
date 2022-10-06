@@ -9,13 +9,13 @@ def plot_image(image):
 def plot_results(*args):
   number_images = len(args)
   fig, axis = plt.subplots(nrows =1 , ncols = number_images, figsize = (12, 4))
-  names_lst =  ['image {]'.format(i) for i in range(1, number_images)]
+  names_lst =  ['image {}'.format(i) for i in range(1, number_images)]
   names_lst.append('Results')
   for ax, name, image in zip(axis, names_lst, args):
       ax.set_title(name)
       ax.imshow(image ,cmap= 'gray')
       ax.axis('off')
-  fig.light_layout()
+  fig.tight_layout()
   plt.show()
 
 def plot_histogram(image):
@@ -23,6 +23,6 @@ def plot_histogram(image):
     color_lst = ['red', 'green', 'blue']
     for index, (ax, color) in enumerate(zip(axis, color_lst)):
         ax.set_title('{} histogram'.format(color.title()))
-        ax.hist(image[:, :, index].ravel(),bins= 256, color=color, alpha=0.8)
+        ax.hist(image[:, :, index].ravel(), bins= 256, color=color, alpha=0.8)
     fig.tight_layout()
     plt.show()
