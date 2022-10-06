@@ -2,16 +2,16 @@
 
 Description. 
 The package image-Processing is used to:
-		processing:
-					- Histrogram matching
-					- Structural similarity
-					- Resize image
-		Ultils:
-					- Read image
-					- Save image
-					- Plot image
-					- Plot results
-					- Plot histograms
+	processing:
+			- Histrogram matching
+			- Structural similarity
+			- Resize image
+	Ultils:
+			- Read image
+			- Save image
+			- Plot image
+			- Plot results
+			- Plot histograms
 
 ## Installation
 
